@@ -1,0 +1,285 @@
+/* Brand Details Page */
+.brand-details-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Back Button */
+.back-button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.back-button:hover {
+  background: #555;
+}
+
+/* Brand Info Section */
+.brand-info-section {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.brand-logo-container {
+  flex: 1;
+}
+
+.brand-logo {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.brand-text-info {
+  flex: 2;
+}
+
+.brand-title {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.brand-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.brand-categories h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.categories-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.category-tag {
+  background: #f0f0f0;
+  color: #555;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.brand-stats {
+  display: flex;
+  gap: 30px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Products Section */
+.brand-products-section {
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Products Grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+/* Product Card */
+.product-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.product-image-container {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ff6b6b;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #4CAF50;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.product-info {
+  padding: 15px;
+}
+
+.product-title {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #333;
+  height: 40px;
+  overflow: hidden;
+}
+
+.product-category {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.product-price-container {
+  margin-bottom: 15px;
+}
+
+.product-price-old {
+  font-size: 0.9rem;
+  color: #888;
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+.product-price-new {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e44d26;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e44d26;
+}
+
+.view-product-btn {
+  width: 100%;
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.view-product-btn:hover {
+  background: #555;
+}
+
+/* No Products */
+.no-products {
+  text-align: center;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+}
+
+.no-products p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Brand Not Found */
+.brand-not-found {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.brand-not-found h2 {
+  margin-bottom: 20px;
+}
+
+.brand-not-found button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .brand-info-section {
+    flex-direction: column;
+  }
+  
+  .brand-logo {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .brand-title {
+    font-size: 2rem;
+  }
+}
