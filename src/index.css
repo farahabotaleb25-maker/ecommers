@@ -1,8 +1,18 @@
+/* index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* أي كود CSS إضافي اختياري */
+/* مثال لتأكيد عمل Tailwind */
 body {
-  background-color: #f0f0f0;
+  @apply bg-gray-100 text-gray-800;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  @apply text-blue-600 text-center mt-10;
+}
+
+button {
+  @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700;
 }
