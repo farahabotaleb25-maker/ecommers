@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Button, Input } from '@heroui/react';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { registerSchema } from '/src/Schemas/registerSchema';
+import { registerSchema } from './Schemas/registerSchema';
+
 import { signUp } from '../Services/AuthServices';
 import { useNavigate } from 'react-router-dom';
 
