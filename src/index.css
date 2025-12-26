@@ -1,18 +1,16 @@
-/* index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* مثال لتأكيد عمل Tailwind */
-body {
-  @apply bg-gray-100 text-gray-800;
-  font-family: Arial, sans-serif;
+/* Tailwind في CSS Modules */
+:global(body) {
+  @apply bg-gray-100 text-gray-800 font-sans;
 }
 
-h1 {
+:global(h1) {
   @apply text-blue-600 text-center mt-10;
 }
 
-button {
+:global(button) {
   @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700;
 }
