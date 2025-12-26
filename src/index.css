@@ -2,15 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind في CSS Modules */
-:global(body) {
-  @apply bg-gray-100 text-gray-800 font-sans;
-}
-
-:global(h1) {
-  @apply text-blue-600 text-center mt-10;
-}
-
-:global(button) {
-  @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700;
-}
+/* أي كود إضافي إذا كنتِ تحتاجينه */
