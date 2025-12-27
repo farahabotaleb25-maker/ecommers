@@ -9,7 +9,7 @@ export default function AuthLayout({ children }) {
 
       {/* main مع padding top لتعويض Navbar */}
       <main className="flex-grow flex justify-center items-center py-20 pt-24">
-        {children}
+        {children} {/* الفورم يظهر هنا */}
       </main>
 
       <Footer />

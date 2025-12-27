@@ -1,4 +1,3 @@
-/* Brands Page */
 .brands-page {
   padding: 40px 20px;
   max-width: 1200px;
@@ -12,20 +11,17 @@
   color: #333;
 }
 
-/* Brands Grid */
 .brands-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px;
 }
 
-/* Brand Card Link */
 .brand-card-link {
   text-decoration: none;
   color: inherit;
 }
 
-/* Brand Card */
 .brand-card {
   background: white;
   border-radius: 10px;
@@ -67,7 +63,6 @@
   text-transform: uppercase;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .brands-container {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
