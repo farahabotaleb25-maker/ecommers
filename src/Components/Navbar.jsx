@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { useState } from "react";
 import { User } from "lucide-react";
 
